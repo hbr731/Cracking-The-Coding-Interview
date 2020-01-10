@@ -21,6 +21,7 @@ public class Main {
 
     // Implement an algorithm to determine if a string has all unique characters.
     public static boolean isUnique(String s, Set<Character> charset) {
+        if (s.length() > 128) return false; // 128 characters in ASCII
         char[] charArray = s.toCharArray();
 
         for (int i = 0; i < charArray.length; i++) {
@@ -35,6 +36,8 @@ public class Main {
 
     // What if you cannot use additional data structures?
     public static boolean isUnique(String s) {
+        if (s.length() > 128) return false;
+
         // we dont need to check the last element
         for (int i = 0; i < s.length() - 1; i++){
             String current = "";

@@ -1,6 +1,8 @@
 package com.javaTwo;
 
+import java.util.HashSet;
 import java.util.NoSuchElementException;
+import java.util.Set;
 
 public class LinkedList<E> {
 
@@ -70,4 +72,32 @@ public class LinkedList<E> {
         return ret;
     }
 
+    // Write code to remove duplicates from an unsorted linked list
+    public void removeDuplicates() {
+        Set<E> data = new HashSet<>();
+        Node tnd = head;
+        int i = 0;
+        while (tnd.next != null) {
+            if (!data.contains(tnd.data)) {
+                data.add(tnd.data);
+                i++;
+            }
+            else remove(i);
+            tnd = tnd.next;
+        }
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder str = new StringBuilder();
+        Node tnd = head;
+        while (tnd.next != null) {
+            str.append(tnd.data);
+            str.append(", ");
+            tnd = tnd.next;
+        }
+        return "LinkedList{" +
+                str +
+                '}';
+    }
 }

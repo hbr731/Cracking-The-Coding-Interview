@@ -118,6 +118,24 @@ public class LinkedList<E> {
         return i;
     }
 
+    public void kToLast(int k) {
+        if (k > size()) throw new IndexOutOfBoundsException();
+        int i = 1;
+        Node tnd = head;
+
+        while (i < k) {
+            tnd = tnd.next;
+            i++;
+        }
+
+        while (i < size()) {
+            System.out.println(tnd.data);
+            tnd = tnd.next;
+            i++;
+        }
+
+    }
+
     @Override
     public String toString() {
         StringBuilder str = new StringBuilder();

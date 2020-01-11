@@ -34,5 +34,9 @@ public class Main {
         System.out.println(l);
         l.removeDups();
         System.out.println(l);
+
+//        System.out.println(l.size());
+        l.kToLast(8);
+        l.kToLast(2);
     }
 }

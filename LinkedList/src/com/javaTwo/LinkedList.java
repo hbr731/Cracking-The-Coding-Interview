@@ -87,6 +87,37 @@ public class LinkedList<E> {
         }
     }
 
+    // FOLLOW UP
+    // How would uou solve this problem if a temporary buffer is not allowed?
+
+    public void removeDups() {
+        Node tnd = head;
+        Node ttnd = tnd.next;
+//        int i = 1;
+
+        while (tnd.next.next != null) {
+            while (ttnd.next != null) {
+//                int idx = i;
+                if (tnd.data == ttnd.data) remove(getIndex(ttnd));
+//                else idx++;
+                ttnd = ttnd.next;
+            }
+            tnd = tnd.next;
+            ttnd = tnd.next;
+//            i++;
+        }
+    }
+
+    private int getIndex(Node nd) {
+        Node tnd = head;
+        int i = 0;
+        while (tnd != nd) {
+            i++;
+            tnd = tnd.next;
+        }
+        return i;
+    }
+
     @Override
     public String toString() {
         StringBuilder str = new StringBuilder();

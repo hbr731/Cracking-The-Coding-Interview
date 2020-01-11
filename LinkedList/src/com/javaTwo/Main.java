@@ -34,5 +34,19 @@ public class Main {
         System.out.println(l);
         l.removeDups();
         System.out.println(l);
+
+
+//        l.kToLast(8);
+        l.kToLast(2);
+
+        System.out.println("----------------------");
+
+        LinkedList<Integer> list = new LinkedList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.add(4);
+//        System.out.println("List Size: " + list.size());
+        list.delMidNode();
     }
 }

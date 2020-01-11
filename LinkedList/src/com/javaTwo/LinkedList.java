@@ -118,6 +118,8 @@ public class LinkedList<E> {
         return i;
     }
 
+
+    // Implement an algorithm to find the kth to last element of a singly linked list
     public void kToLast(int k) {
         if (k > size()) throw new IndexOutOfBoundsException();
         int i = 1;
@@ -133,7 +135,28 @@ public class LinkedList<E> {
             tnd = tnd.next;
             i++;
         }
+    }
 
+    /*
+    Implement an algorithm to delete a node in the middle (i.e., any node but the first
+    and last node, not necessarily the exact middle) of a singly linked list, given
+    only access to the that node.
+
+    EX:
+    Input: the node c from the linked list a -> b -> c -> d -> e -> f -> null
+    Result: a -> b -> d -> e -> f -> null
+     */
+    public void delMidNode() {
+        int mid = (size()-1)/2;
+//        System.out.println("size: " + size() + "\nmid: " +mid + "\n" + size()/2);
+//        Node tnd = head;
+//        int i = 0;
+//
+//        while (i < mid) {
+//            i++;
+//            tnd = tnd.next;
+//        }
+        System.out.println("Deleted: " + remove(mid));
     }
 
     @Override

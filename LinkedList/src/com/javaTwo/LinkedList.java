@@ -89,7 +89,6 @@ public class LinkedList<E> {
 
     // FOLLOW UP
     // How would uou solve this problem if a temporary buffer is not allowed?
-
     public void removeDups() {
         Node tnd = head;
         Node ttnd = tnd.next;
@@ -116,6 +115,34 @@ public class LinkedList<E> {
             tnd = tnd.next;
         }
         return i;
+    }
+
+    public Node getNode(int idx) {
+        if (idx < 0) throw new IndexOutOfBoundsException();
+        Node tnd = head;
+        int i = 0;
+
+        while (i != idx && tnd.next != null) {
+            i++;
+            tnd = tnd.next;
+        }
+
+        if (tnd == null) throw new IndexOutOfBoundsException();
+        return tnd;
+    }
+
+    public E get(int idx) {
+        if (idx < 0) throw new IndexOutOfBoundsException();
+        Node tnd = head;
+        int i = 0;
+
+        while (i != idx && tnd.next != null) {
+            i++;
+            tnd = tnd.next;
+        }
+
+        if (tnd == null) throw new IndexOutOfBoundsException();
+        return tnd.data;
     }
 
 
@@ -159,11 +186,61 @@ public class LinkedList<E> {
         System.out.println("Deleted: " + remove(mid));
     }
 
+    /*
+    Write code to partition a linked list around a value x, such that all nodes less
+    than x come before all nodes greater than or equal to x. If x is contained within
+    the list, the values of x only need to be after the elements less than x. The
+    partition element x can appear anywhere in the "right partition"; it does not
+    need to appear between the left and right partitions.
+     */
+    public void partition() {
+        E pivot = remove((size()-1)/2);
+        Node left = new Node();
+        Node right = new Node(pivot);
+
+//        System.out.println(pivot);
+
+//        System.out.println("left: " + left.data);
+//        System.out.println("right:" + right.data);
+
+        Node tnd = head;
+        Node lnd = left;
+        Node rnd = right;
+        while (tnd != null) {
+//            System.out.println(tnd.data);
+
+            if ((int) tnd.data < (int) pivot) {
+//                System.out.println("smaller");
+                while (lnd.next != null) lnd = lnd.next;
+                lnd.next = new Node(tnd.data);
+            }
+            else {
+//                System.out.println("inside else: " + tnd.data);
+                while (rnd.next != null) rnd = rnd.next;
+                rnd.next = new Node(tnd.data);
+//                System.out.println(rnd.next.data);
+            }
+            tnd = tnd.next;
+        }
+
+        left = left.next;
+//        System.out.println("left: " + left.data);
+//        System.out.println("right:" + right.data);
+        Node ttnd = left;
+
+        while (ttnd.next != null) ttnd = ttnd.next;
+
+        ttnd.next = right;
+
+        head = left;
+
+    }
+
     @Override
     public String toString() {
         StringBuilder str = new StringBuilder();
         Node tnd = head;
-        while (tnd.next != null) {
+        while (tnd != null) {
             str.append(tnd.data);
             str.append(", ");
             tnd = tnd.next;

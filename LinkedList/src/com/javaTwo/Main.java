@@ -46,7 +46,13 @@ public class Main {
         list.add(2);
         list.add(3);
         list.add(4);
+        list.add(5);
+        list.add(6);
+        list.add(7);
+
 //        System.out.println("List Size: " + list.size());
-        list.delMidNode();
+//        list.delMidNode();
+        list.partition();
+        System.out.println(list);
     }
 }

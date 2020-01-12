@@ -175,6 +175,8 @@ public class LinkedList<E> {
      */
     public void delMidNode() {
         int mid = (size()-1)/2;
+        if (mid == size()) System.out.println("No middle element found");
+
 //        System.out.println("size: " + size() + "\nmid: " +mid + "\n" + size()/2);
 //        Node tnd = head;
 //        int i = 0;
@@ -198,7 +200,7 @@ public class LinkedList<E> {
         Node left = new Node();
         Node right = new Node(pivot);
 
-//        System.out.println(pivot);
+        System.out.println("pivot: " + pivot);
 
 //        System.out.println("left: " + left.data);
 //        System.out.println("right:" + right.data);

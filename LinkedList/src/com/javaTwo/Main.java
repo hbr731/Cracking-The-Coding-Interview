@@ -54,5 +54,18 @@ public class Main {
 //        list.delMidNode();
         list.partition();
         System.out.println(list);
+
+        LinkedList<Integer> list1 = new LinkedList<>();
+        list1.add(7);
+        list1.add(1);
+        list1.add(6);
+
+        LinkedList<Integer> list2 = new LinkedList<>();
+        list2.add(5);
+        list2.add(9);
+        list2.add(2);
+
+        System.out.println(list1.reversedListsSum(list2));
+        System.out.println(list1.forwardListsSum(list2));
     }
 }

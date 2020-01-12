@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b1d49de6-a863-42e0-9e08-bca4f91d2563" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/com/javaTwo/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LinkedList/com/javaTwo/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/com/javaTwo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LinkedList/com/javaTwo/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/javaTwo/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javaTwo/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/javaTwo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javaTwo/Main.java" afterDir="false" />
     </list>
@@ -15,20 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/javaTwo/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+            <state relative-caret-position="952">
+              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/javaTwo/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="202" column="39" selection-start-line="202" selection-start-column="39" selection-end-line="202" selection-end-column="39" />
+            <state relative-caret-position="328">
+              <caret line="283" column="77" selection-start-line="283" selection-start-column="77" selection-end-line="283" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,7 +103,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578730572580" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578873432910" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -145,12 +147,12 @@
       <workItem from="1578693080265" duration="6415000" />
       <workItem from="1578718903779" duration="5453000" />
       <workItem from="1578725224140" duration="5402000" />
-      <workItem from="1578867421104" duration="468000" />
+      <workItem from="1578867421104" duration="4840000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17738000" />
+    <option name="totallyTimeSpent" value="22110000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="764" y="0" width="1101" height="1087" extended-state="0" />
@@ -166,7 +168,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32914045" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2494759" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937106" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -203,20 +205,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/javaTwo/LinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/javaTwo/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="202" column="39" selection-start-line="202" selection-start-column="39" selection-end-line="202" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="952">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/javaTwo/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/javaTwo/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+        <state relative-caret-position="328">
+          <caret line="283" column="77" selection-start-line="283" selection-start-column="77" selection-end-line="283" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -175,6 +175,8 @@ public class LinkedList<E> {
      */
     public void delMidNode() {
         int mid = (size()-1)/2;
+        if (mid == size()) System.out.println("No middle element found");
+
 //        System.out.println("size: " + size() + "\nmid: " +mid + "\n" + size()/2);
 //        Node tnd = head;
 //        int i = 0;
@@ -198,7 +200,7 @@ public class LinkedList<E> {
         Node left = new Node();
         Node right = new Node(pivot);
 
-//        System.out.println(pivot);
+//        System.out.println("pivot: " + pivot);
 
 //        System.out.println("left: " + left.data);
 //        System.out.println("right:" + right.data);
@@ -234,6 +236,77 @@ public class LinkedList<E> {
 
         head = left;
 
+    }
+
+    /*
+    You have two numbers represented by a linked list, where each node contains a single digit.
+    The digits are stored in reverse order, such that the 1s digit is at the head of the list.
+    Write a function that adds the two numbers and returns the sum as a linked list.
+     */
+    public LinkedList<Integer> reversedListsSum(LinkedList<E> list) {
+//        E temp = (E) list.get(0);
+//        Node nd = new Node(temp);
+
+//        Node lhead = list.head;
+        Node tnd = head;
+
+        StringBuilder str1 = new StringBuilder(), str2 = new StringBuilder();
+
+        // save the list elements as nodes. Is this necessary?
+//        Node ttnd = nd;
+//        for (int i = 1; i < list.size(); i++) {
+//            while (ttnd.next != null) ttnd = ttnd.next;
+//            ttnd.next = new Node((E) list.get(i));
+//        }
+
+        while (tnd != null) {
+            str1.insert(0, tnd.data);
+            tnd = tnd.next;
+        }
+
+        for (int i = 0; i < list.size(); i++) str2.insert(0, list.get(i));
+
+        System.out.println("str1: " + str1 + "\nstr2: " + str2);
+
+        String sum = Integer.toString(Integer.parseInt(str1.toString()) +
+                        Integer.parseInt(str2.toString()));
+
+        LinkedList<Integer> ret = new LinkedList<>();
+        for (int i = 0; i < sum.length(); i++) {
+            ret.addFirst(Character.getNumericValue(sum.charAt(i)));
+        }
+
+        return ret;
+    }
+
+    /*
+    FOLLOW UP
+    Suppose the digits are stored in forward order. Repeat the above problem.
+     */
+    public LinkedList<Integer> forwardListsSum(LinkedList<E> list) {
+        Node tnd = head;
+
+        StringBuilder str1 = new StringBuilder(), str2 = new StringBuilder();
+
+        while (tnd != null) {
+            str1.append(tnd.data);
+            tnd = tnd.next;
+        }
+
+        for (int i = 0; i < list.size(); i++) str2.append(list.get(i));
+
+        System.out.println("str1: " + str1 + "\nstr2: " + str2);
+
+        String sum = Integer.toString(Integer.parseInt(str1.toString()) +
+                Integer.parseInt(str2.toString()));
+
+        LinkedList<Integer> ret = new LinkedList<>();
+
+        for (int i = 0; i < sum.length(); i++) {
+            ret.add(Character.getNumericValue(sum.charAt(i)));
+        }
+
+        return ret;
     }
 
     @Override

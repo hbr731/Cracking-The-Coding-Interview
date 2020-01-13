@@ -354,6 +354,29 @@ public class LinkedList<E> {
         return duplicate.data;
     }
 
+    /*
+    Given two (singly) linked lists, determine if the two lists intersect. Return the interseting
+    node. Note that the intersection is defined based on reference, not value. THat is, if the kth
+    node of the first linked list is the exact same node (by reference) as the jth node of the
+    second linked list, then they are intersecting.
+     */
+    public E findIntersection(LinkedList<E> list) {
+        Set<Node> nodes = new HashSet<>();
+
+        Node tnd = head;
+        while (tnd != null) {
+            nodes.add(tnd);
+            tnd = tnd.next;
+        }
+
+        Node ttnd = list.head;
+        while (ttnd != null) {
+            if (nodes.contains(ttnd)) return ttnd.data;
+            ttnd = ttnd.next;
+        }
+        return null;
+    }
+
     @Override
     public String toString() {
         StringBuilder str = new StringBuilder();

@@ -67,5 +67,17 @@ public class Main {
 
         System.out.println(list1.reversedListsSum(list2));
         System.out.println(list1.forwardListsSum(list2));
+        System.out.println();
+
+        LinkedList<Integer> palin = new LinkedList<>();
+        palin.add(0);
+        palin.add(1);
+        palin.add(2);
+        palin.add(1);
+        palin.add(0);
+        System.out.println(palin.isPalindrome());
+        System.out.println("Looping Node: " + palin.checkLoop()); // null
+        palin.head.next.next.next.next = palin.head.next;
+        System.out.println("Looping Node: " + palin.checkLoop()); // 1
     }
 }

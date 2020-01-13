@@ -167,7 +167,7 @@ public class LinkedList<E> {
     /*
     Implement an algorithm to delete a node in the middle (i.e., any node but the first
     and last node, not necessarily the exact middle) of a singly linked list, given
-    only access to the that node.
+    only access to that node.
 
     EX:
     Input: the node c from the linked list a -> b -> c -> d -> e -> f -> null
@@ -308,6 +308,32 @@ public class LinkedList<E> {
 
         return ret;
     }
+
+    /*
+    Implement a function to check if a linked list is a palindrome
+     */
+    public boolean isPalindrome() {
+        Node reversedHead = new Node(head.data);
+        Node tnd = head.next;
+
+        while (tnd != null) {
+            Node temp = new Node(tnd.data);
+            temp.next = reversedHead;
+            reversedHead = temp;
+
+            tnd = tnd.next;
+        }
+
+        Node tnd1 = head, tnd2 = reversedHead;
+        for (int i = 0; i < size()/2; i++) {
+            if (tnd1.data != tnd2.data) return false;
+            tnd1 = tnd1.next;
+            tnd2 = tnd2.next;
+        }
+
+        return true;
+    }
+
 
     @Override
     public String toString() {

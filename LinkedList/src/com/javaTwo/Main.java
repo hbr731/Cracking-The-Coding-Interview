@@ -79,5 +79,12 @@ public class Main {
         System.out.println("Looping Node: " + palin.checkLoop()); // null
         palin.head.next.next.next.next = palin.head.next;
         System.out.println("Looping Node: " + palin.checkLoop()); // 1
+
+        System.out.println();
+
+        System.out.println(list1.findIntersection(list2));
+        list2.head.next.next = list1.head.next;
+        System.out.println(list1.findIntersection(list2));
+
     }
 }

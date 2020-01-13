@@ -76,5 +76,8 @@ public class Main {
         palin.add(1);
         palin.add(0);
         System.out.println(palin.isPalindrome());
+        System.out.println("Looping Node: " + palin.checkLoop()); // null
+        palin.head.next.next.next.next = palin.head.next;
+        System.out.println("Looping Node: " + palin.checkLoop()); // 1
     }
 }

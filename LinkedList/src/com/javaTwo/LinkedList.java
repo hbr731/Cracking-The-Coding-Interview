@@ -334,6 +334,25 @@ public class LinkedList<E> {
         return true;
     }
 
+    /*
+    Given a circular linked list, implement an algorithm that returns the node at the beginning of
+    the loop
+     */
+    public E checkLoop() {
+        HashSet<Node> nodes = new HashSet<>();
+        Node duplicate = new Node();
+        Node tnd = head;
+        while (tnd != null) {
+            if (nodes.contains(tnd)) {
+                duplicate = tnd;
+                break;
+            }
+            else nodes.add(tnd);
+            tnd = tnd.next;
+        }
+
+        return duplicate.data;
+    }
 
     @Override
     public String toString() {

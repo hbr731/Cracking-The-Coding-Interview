@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1d49de6-a863-42e0-9e08-bca4f91d2563" name="Default Changelist" comment="" />
+    <list default="true" id="f070f782-8c2e-4850-814d-60388f8e7862" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../LinkedList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trees=And-Graphs/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trees=And-Graphs/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trees=And-Graphs/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trees=And-Graphs/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trees=And-Graphs/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trees=And-Graphs/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trees=And-Graphs/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trees=And-Graphs/Trees=And-Graphs.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trees=And-Graphs/out/production/Trees=And-Graphs/com/javaTwo/Graph$Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trees=And-Graphs/out/production/Trees=And-Graphs/com/javaTwo/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trees=And-Graphs/src/com/javaTwo/Graph.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,22 +25,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/javaTwo/LinkedList.java">
+        <entry file="file://$PROJECT_DIR$/src/com/javaTwo/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="274" column="16" lean-forward="true" selection-start-line="274" selection-start-column="16" selection-end-line="274" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/javaTwo/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="62" column="55" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
+            <state relative-caret-position="441">
+              <caret line="83" column="33" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -41,27 +42,21 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>=</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/javaTwo/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/javaTwo/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/javaTwo/Graph.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="917" />
-    <option name="y" value="540" />
     <option name="width" value="939" />
-    <option name="height" value="547" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -69,36 +64,16 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="LinkedList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LinkedList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LinkedList" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="javaTwo" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578877631706" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578989795478" />
+    <property name="last_opened_file_path" value="E:/graph" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -114,9 +89,8 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.javaTwo.Main" />
-      <module name="LinkedList" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="com.javaTwo.Graph" />
+      <module name="Trees=And-Graphs" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -134,24 +108,22 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b1d49de6-a863-42e0-9e08-bca4f91d2563" name="Default Changelist" comment="" />
-      <created>1578693077405</created>
+      <changelist id="f070f782-8c2e-4850-814d-60388f8e7862" name="Default Changelist" comment="" />
+      <created>1578908079347</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1578693077405</updated>
-      <workItem from="1578693080265" duration="6415000" />
-      <workItem from="1578718903779" duration="5453000" />
-      <workItem from="1578725224140" duration="5402000" />
-      <workItem from="1578867421104" duration="8791000" />
-      <workItem from="1578902887820" duration="3008000" />
+      <updated>1578908079347</updated>
+      <workItem from="1578908096464" duration="1789000" />
+      <workItem from="1578989452835" duration="325000" />
+      <workItem from="1578989917630" duration="5507000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29069000" />
+    <option name="totallyTimeSpent" value="7621000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="917" y="540" width="939" height="547" extended-state="0" />
+    <frame x="917" y="0" width="939" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.034129694" />
@@ -164,7 +136,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5748792" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32704404" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937106" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -172,7 +144,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32914045" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -190,31 +162,11 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Object.java">
+    <entry file="file://$PROJECT_DIR$/src/com/javaTwo/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/javaTwo/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="244" column="18" selection-start-line="244" selection-start-column="18" selection-end-line="244" selection-end-column="18" />
-          <folding>
-            <element signature="e#10225#10226#0" expanded="true" />
-            <element signature="e#10308#10309#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/javaTwo/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="62" column="55" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/javaTwo/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="274" column="16" lean-forward="true" selection-start-line="274" selection-start-column="16" selection-end-line="274" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="441">
+          <caret line="83" column="33" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="33" />
         </state>
       </provider>
     </entry>

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f070f782-8c2e-4850-814d-60388f8e7862" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Randoms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Randoms/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Randoms/out/production/Randoms/com/javaTwo/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Randoms/out/production/Randoms/com/javaTwo/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Randoms/src/com/javaTwo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Randoms/src/com/javaTwo/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/javaTwo/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javaTwo/Tree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +17,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/javaTwo/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
+            <state relative-caret-position="1258">
               <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
             </state>
           </provider>
@@ -28,11 +26,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/javaTwo/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+            <state relative-caret-position="736">
+              <caret line="86" column="33" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="33" />
               <folding>
-                <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,6 +67,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -93,13 +91,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579998984534" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580055883409" />
     <property name="last_opened_file_path" value="E:/graph" />
   </component>
   <component name="RunDashboard">
@@ -147,18 +144,19 @@
       <workItem from="1579089995961" duration="723000" />
       <workItem from="1579226820170" duration="749000" />
       <workItem from="1579384164545" duration="1246000" />
-      <workItem from="1579991871466" duration="4885000" />
+      <workItem from="1579991871466" duration="6020000" />
+      <workItem from="1580053976577" duration="1775000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17043000" />
+    <option name="totallyTimeSpent" value="19953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="917" y="0" width="939" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22753128" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1569966" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -168,7 +166,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32704404" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32704404" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937106" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -197,18 +195,17 @@
     <entry file="file://$PROJECT_DIR$/src/com/javaTwo/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/com/javaTwo/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
+        <state relative-caret-position="1258">
           <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/javaTwo/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+        <state relative-caret-position="736">
+          <caret line="86" column="33" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="33" />
           <folding>
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,7 +1,10 @@
 package com.javaTwo;
-
+/*
+https://www.geeksforgeeks.org/find-excel-column-number-column-title/
+ */
 public class Main {
 
+    // Find Excel column name from a given column number
     public static String getExcelColumnName(Long n) {
         Long copy = n;
         StringBuilder str = new StringBuilder();
@@ -30,7 +33,23 @@ public class Main {
         return str.reverse().toString();
     }
 
+    /*
+     Factset- Efficient Janitor problem
+    Given weights : [1.99, 1.01, 2.5, 1.5, 1.01]
+    Maximum bag size is 3.0 find the minimum number trips required by the janitor to dump the garbage.
+    Output for the example :
+    [1.01 + 1.99], [1.01 + 1.5], [2.5] so min steps is 3.
+     */
+    public static int efficientJanitor(Float[] weights) {
+        int trips = 0;
+
+
+
+        return trips;
+    }
+
     public static void main(String[] args) {
+        System.out.println("*/---------------------------------------------------/*");
         System.out.println(getExcelColumnName((long) 26));
         System.out.println(getExcelColumnName((long) 702 + 26));
         System.out.println(getExcelColumnName((long) 702 + 702 +26));
@@ -48,6 +67,13 @@ public class Main {
         System.out.println(getExcelColumnName((long) 702+702+53));
         System.out.println();
         System.out.println(getExcelColumnName((long) 1380));
+
+        System.out.println();
+        System.out.println("*/---------------------------------------------------/*");
+
+        System.out.println(efficientJanitor(new Float[]{1.99f, 1.01f, 2.5f, 1.5f, 1.01f}));
+        if (Math.abs(.999999999 - 1) < 0.00000001) System.out.println("a = b");
+        else System.out.println("a != b");
     }
 }
 
